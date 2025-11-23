@@ -132,5 +132,3 @@ pytest
 **License**
 
 - See the top-level `LICENSE` file for licensing details.
-
-If you want, I can: add a suggested `Documentation/Requirements.txt` with pinned versions, create the recommended subfolders in `Asmaad/`, or open a PR with these changes — tell me which you'd like next.
