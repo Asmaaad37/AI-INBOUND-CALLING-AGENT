@@ -1,14 +1,3 @@
-"""Interactive helper to append curriculum rows to Curriculum.csv / Curriculum.xlsx.
-
-This small tool is safe to run from the project root. It will read existing
-Curriculum.csv / Curriculum.xlsx (if present) from the repository root, allow
-interactive additions, or append rows passed via JSON string / file.
-
-Usage examples:
-  python Asmaad/Docs_extraction/update_curriculum.py --interactive
-  python Asmaad/Docs_extraction/update_curriculum.py --append-json '[{"ProgramName": "X", "Semester": "S1", "CourseCode": "ABC-0001", "CourseTitle": "Foo", "CreditHours": "3(3-0)", "PreReq": ""}]'
-"""
-
 import argparse
 import json
 from pathlib import Path
