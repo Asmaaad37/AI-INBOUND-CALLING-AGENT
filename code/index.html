@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Inbound Calling Agent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f4c81, #1e90ff);
+            color: white;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background: rgba(0, 0, 0, 0.15);
+        }
+
+        .navbar h1 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .navbar a:hover {
+            transform: translateY(-3px);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 85vh;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 16px;
+            max-width: 650px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .hero button {
+            padding: 12px 30px;
+            font-size: 15px;
+            font-weight: 500;
+            border: none;
+            border-radius: 25px;
+            background: white;
+            color: #0f4c81;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .hero button:hover {
+            background: #e6f0ff;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Features Section */
+        .features {
+            background: #f4f8fc;
+            color: #333;
+            padding: 60px 80px;
+        }
+
+        .features h3 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 40px;
+            color: #0f4c81;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        /* Hover effect like dashboard cards */
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+            border-left: 6px solid #1e90ff;
+        }
+
+        .feature-box h4 {
+            margin-bottom: 10px;
+            color: #1e90ff;
+        }
+
+        .feature-box p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* Footer */
+        footer {
+            background: #0f4c81;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>AI Inbound Agent</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="#">Features</a>
+            <a href="admindashboard.html">Dashboard</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Inbound Calling Agent</h2>
+        <p>
+            An intelligent AI-powered system designed to handle inbound calls in Urdu and English,
+            understand user intent and emotions, and provide real-time responses or escalate to
+            human agents when required.
+        </p>
+        <!-- Hero Section Button -->
+<button onclick="location.href='admindashboard.html'">Go to Admin Dashboard</button>
+
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h3>Core Features</h3>
+        <div class="feature-grid">
+            <div class="feature-box">
+                <h4>Urdu Speech Recognition</h4>
+                <p>Accurate ASR supporting Urdu and mixed Urdu-English conversations.</p>
+            </div>
+
+            <div class="feature-box">
+                <h4>Intent & Emotion Detection</h4>
+                <p>Advanced NLU models detect intent, urgency, and emotional tone.</p>
+            </div>
+
+            <div class="feature-box">
+                <h4>Knowledge Graph Reasoning</h4>
+                <p>GraphRAG-based reasoning ensures contextual and consistent answers.</p>
+            </div>
+
+            <div class="feature-box">
+                <h4>Human Escalation</h4>
+                <p>Seamless call transfer with full conversation context.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 AI Inbound Calling Agent | Final Year Project
+    </footer>
+
+</body>
+</html>
