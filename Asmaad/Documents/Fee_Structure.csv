@@ -1,0 +1,9 @@
+ProgramID,ProgramName,DepartmentID,Department,FeeStructureID,StudyModeID,StudyMode,FeeComponentID,FeeTypeID,FeeType,Amount,Frequency,Year
+1,BS in Computer Science,D001,Computer Science,FS001-REG,SM001,Regular,FC001,FT001,Admission Fee,3000,Once,2025
+1,BS in Computer Science,D001,Computer Science,FS001-REG,SM001,Regular,FC002,FT002,Tuition Fee,35150,Per Semester,2025
+1,BS in Computer Science,D001,Computer Science,FS001-REG,SM001,Regular,FC003,FT003,Bus Card Fee,2500,Per Semester,2025
+1,BS in Computer Science,D001,Computer Science,FS001-REG,SM001,Regular,FC004,FT004,Utility Charges,5000,Per Semester,2025
+1,BS in Computer Science,D001,Computer Science,FS001-SS,SM002,Self Support,FC001,FT001,Admission Fee,3000,Once,2025
+1,BS in Computer Science,D001,Computer Science,FS001-SS,SM002,Self Support,FC005,FT002,Tuition Fee,51650,Per Semester,2025
+1,BS in Computer Science,D001,Computer Science,FS001-SS,SM002,Self Support,FC003,FT003,Bus Card Fee,2500,Per Semester,2025
+1,BS in Computer Science,D001,Computer Science,FS001-SS,SM002,Self Support,FC004,FT004,Utility Charges,5000,Per Semester,2025
