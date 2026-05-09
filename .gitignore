@@ -1,8 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+venv/
+env/
 tts_env/
 .env
-outputs/
-*.wav
-*.mp3
-__pycache__/
+
+# IDE
 .vscode/
-models/
+.idea/
+
+# Logs
+*.log
+
+# Audio outputs (TTS project)
+*.mp3
+*.wav
+*.flac
+
+# OS files
+.DS_Store
+Thumbs.db
