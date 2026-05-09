@@ -1,0 +1,8 @@
+tts_env/
+.env
+outputs/
+*.wav
+*.mp3
+__pycache__/
+.vscode/
+models/
