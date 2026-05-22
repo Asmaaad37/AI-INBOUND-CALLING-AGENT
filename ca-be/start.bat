@@ -12,7 +12,7 @@ if errorlevel 1 (
 )
 
 echo Restoring database from uos_db_backup.sql...
-powershell -Command "[System.IO.File]::ReadAllText('uos_db_backup.sql', [System.Text.Encoding]::Unicode) | & docker exec -i pgvector psql -U postgres postgres"
+powershell -Command "command"
 
 echo Starting app...
 docker compose up --build -d app
